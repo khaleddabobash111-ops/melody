@@ -1,6 +1,6 @@
 import 'dart:ui' show FontFeature;
 import 'dart:math' as math;
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide RepeatMode;
 import 'artwork_palette.dart';
 import 'dynamic_background.dart';
 import 'models.dart';
