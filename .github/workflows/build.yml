@@ -22,7 +22,7 @@ jobs:
       - name: Patch Android (audio service, permissions)
         run: |
           rm -f test/widget_test.dart
-          python3 tools/patch_android.py
+          python3 melody_music/tools/patch_android.py
       - run: flutter pub get
       - run: dart run flutter_launcher_icons
       - name: Analyze (does not fail the build)
