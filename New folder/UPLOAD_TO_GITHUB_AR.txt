@@ -1,9 +1,0 @@
-Melody Music - النسخة المعدلة
-
-ارفع مجلد .github ومجلد melody_music إلى جذر مستودع GitHub.
-لا ترفع ملف ZIP كما هو.
-إذا كان مستودعك يحتوي بالفعل على الملفات، استبدل الملفات الموجودة بالمعدلة، وتأكد أن .github/workflows/build.yml موجود في جذر المستودع فقط.
-ثم Actions > Build APK > Run workflow.
-
-التعديلات: إصلاح مسار workflow، تعارض RepeatMode، وcompileSdk في إضافة file_picker.
-تنبيه: لم يتم اختبار البناء فعليًا لعدم توفر Flutter SDK في بيئة العمل.
